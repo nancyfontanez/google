@@ -1,0 +1,429 @@
+<mjml>
+    <mj-head>
+        <mj-style>
+            *{
+                box-sixing: border-box;
+            }
+            .links-style {
+                color: #1565c0;
+                text-decoration: none;
+            }
+        </mj-style>
+    </mj-head>
+    <mj-body>
+
+        <mj-wrapper background-color="#f7f7f7">
+        <mj-raw>
+            <!-- HEADER -->
+        </mj-raw>
+        <mj-section padding="0">
+            <mj-column >
+                <mj-image
+                    src="https://i.ibb.co/vx2cf0d/google-play-logo.png"
+                    alt="Google Play Logo"
+                    width="152px"
+                    align="left"
+                    padding-left="30px"
+                    href="https://play.google.com/store/games" 
+                />
+            </mj-column>
+        </mj-section>
+
+        <mj-raw>
+            <!-- DIVIDER -->
+        </mj-raw>
+        <mj-include path="./components/divider.mjml" />
+
+        <mj-raw>
+            <!-- THANK YOU TEXT -->
+        </mj-raw>
+        <mj-section >
+            <mj-column>
+                <mj-text
+                    color="#555555"
+                    font-family="Verdana"
+                    font-size="30px"
+                    line-height="36px"
+                    align="left"
+                    padding="0 30px 20px">
+                    Thank you
+                </mj-text>
+                <mj-text
+                    color="#555555"
+                    font-family="Verdana"
+                    font-size="14px"
+                    line-height="21px"
+                    align="left"
+                    padding="0 30px">
+                    You've made a purchase from Prisma Labs, inc. on Google Play.
+                </mj-text>
+                <mj-text
+                    color="#555555"
+                    font-family="Verdana"
+                    font-size="14px"
+                    line-height="21px"
+                    align="left"
+                    padding="20px 30px 0">
+                    <b>Order number:</b> GPA.3318-4679-9956-32714
+                </mj-text>
+                <mj-text
+                    color="#555555"
+                    font-family="Verdana"
+                    font-size="14px"
+                    line-height="21px"
+                    align="left"
+                    padding="0 30px">
+                    <b>Order date:</b> Dec 5, 2022 9:35:39 PM EST
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+        <mj-raw>
+            <!-- ITEM & PRICE TITLE TEXT -->
+        </mj-raw>
+        <mj-section padding="0">
+            <mj-column width="75%">
+                <mj-text
+                    color="#555555"
+                    font-family="Verdana"
+                    font-size="14px"
+                    font-weight="600"
+                    line-height="36px"
+                    align="left"
+                    padding="0 30px">
+                    Item
+                </mj-text>
+            </mj-column>
+            <mj-column width="25%">
+                <mj-text
+                    color="#555555"
+                    font-family="Verdana"
+                    font-size="14px"
+                    font-weight="600"
+                    line-height="36px"
+                    align="right"
+                    padding="0 30px">
+                    Price
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+        <mj-raw>
+            <!-- DIVIDER -->
+        </mj-raw>
+        <mj-include path="./components/divider.mjml" />
+        
+        <mj-raw>
+            <!-- ITEM NAME & PRICE TEXT -->
+        </mj-raw>
+        <mj-section padding="0">
+            <mj-column width="75%">
+                <mj-text
+                    color="#555555"
+                    font-family="Verdana"
+                    font-size="14px"
+                    line-height="21px"
+                    align="left"
+                    padding="10px 30px">
+                    Magic Avatars Pack (Lensa: Avatar Maker, Editor)
+                </mj-text>
+            </mj-column>
+            <mj-column width="25%">
+                <mj-text
+                    color="#555555"
+                    font-family="Verdana"
+                    font-size="14px"
+                    line-height="21px"
+                    align="right"
+                    padding="10px 30px">
+                    $7.99
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+        <mj-raw>
+            <!-- DIVIDER -->
+        </mj-raw>
+        <mj-include path="./components/divider.mjml" />
+
+        <mj-raw>
+            <!-- TAX & TOTAL TEXT -->
+        </mj-raw>
+        <mj-section padding="0">
+            <mj-column width="75%">
+                <mj-text
+                    color="#555555"
+                    font-family="Verdana"
+                    font-size="14px"
+                    line-height="21px"
+                    align="left"
+                    padding="10px 30px">
+                </mj-text>
+            </mj-column>
+            <mj-column width="25%">
+                <mj-text
+                    color="#555555"
+                    font-family="Verdana"
+                    font-size="14px"
+                    line-height="21px"
+                    align="right"
+                    padding="10px 30px 4px">
+                    Tax: $0.00
+                </mj-text>
+                <mj-text
+                    color="#555555"
+                    font-family="Verdana"
+                    font-size="14px"
+                    line-height="21px"
+                    align="right"
+                    padding="0 30px 10px">
+                    Total: $7.99
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+        <mj-raw>
+            <!-- DIVIDER -->
+        </mj-raw>
+        <mj-include path="./components/divider.mjml" />
+
+        <mj-raw>
+            <!-- PAYMENT METHODS TEXT -->
+        </mj-raw>
+        <mj-section padding="0">
+            <mj-column width="50%">
+                <mj-text
+                    color="#555555"
+                    font-family="Verdana"
+                    font-size="14px"
+                    font-weight="600"
+                    line-height="21px"
+                    align="left"
+                    padding="10px 30px">
+                    Payment Methods:
+                </mj-text>
+            </mj-column>
+            <mj-column width="50%">
+                <mj-text
+                    color="#555555"
+                    font-family="Verdana"
+                    font-size="14px"
+                    line-height="21px"
+                    align="right"
+                    padding="10px 30px 4px">
+                    Google Play balance: $5.00
+                </mj-text>
+                <mj-text
+                    color="#555555"
+                    font-family="Verdana"
+                    font-size="14px"
+                    line-height="21px"
+                    align="right"
+                    padding="0 30px 10px">
+                    Visa-9900 : $2.99
+                </mj-text>
+            </mj-column>
+        </mj-section>
+        <mj-raw>
+            <!-- PLAY POINTS TEXT -->
+        </mj-raw>
+        <mj-section padding="0">
+            <mj-column width="300px">
+                <mj-text
+                    color="#555555"
+                    font-family="Verdana"
+                    font-size="14px"
+                    font-weight="600"
+                    line-height="21px"
+                    align="left"
+                    padding="15px 30px">
+                    Play Points earned
+                </mj-text>
+            </mj-column>
+            <mj-column width="235px">
+                <mj-image 
+                    src="https://i.ibb.co/CtV3XgZ/google-rewards-icon.png" 
+                    alt="Google Play Points Logo" 
+                    width="25px"
+                    align="right"
+                    padding="10px 0"
+                />
+            </mj-column>
+            <mj-column width="65px">
+                <mj-text
+                    color="#555555"
+                    font-family="Verdana"
+                    font-size="14px"
+                    align="right"
+                    padding="15px 30px 5px 0">
+                    +10
+                </mj-text>
+            </mj-column>
+                
+            </mj-column>
+        </mj-section>
+
+        <mj-raw>
+            <!-- QUESTIONS TEXT -->
+        </mj-raw>
+        <mj-section padding="0">
+            <mj-column>
+                <mj-text
+                    color="#555555"
+                    font-family="Verdana"
+                    font-size="14px"
+                    line-height="21px"
+                    align="left"
+                    padding="30px 30px 25px">
+                    Questions? Visit 
+                        <a href="https://prisma-ai.com/"
+                            class="links-style">
+                            Prisma Labs, inc..
+                        </a>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+        <mj-raw>
+            <!-- DIVIDER -->
+        </mj-raw>
+        <mj-include path="./components/divider.mjml" />
+
+        <mj-raw>
+            <!-- GOOGLE PLAY INFO -->
+        </mj-raw>
+        <mj-section padding="0">
+            <mj-column width="20%">
+                <mj-image
+                    src="https://i.ibb.co/QdvFMYS/google-play-icon.png"
+                    alt="Google Play Icon"
+                    width="60px"
+                    align="left"
+                    padding="16px 0 0 50px"
+                />
+            </mj-column>
+            <mj-column css-class="play-info-mobile" width="80%">
+                <mj-text
+                    color="#555555"
+                    font-family="Verdana"
+                    font-size="14px"
+                    font-weight="600"
+                    line-height="21px"
+                    align="left"
+                    padding="12px 5px">
+                    Google Play
+                </mj-text>
+                <mj-text
+                    color="#555555"
+                    font-family="Verdana"
+                    font-size="12px"
+                    line-height="18px"
+                    align="left"
+                    padding="0 5px 30px">
+                    All your entertainment in one place, available anywhere. 
+                        <a href="https://play.google.com/store/games"
+                            class="links-style">
+                            Learn more ›
+                        </a> 
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+        <mj-raw>
+            <!-- DIVIDER -->
+        </mj-raw>
+        <mj-include path="./components/divider.mjml" />
+
+        <mj-raw>
+            <!-- F00TER TEXT -->
+        </mj-raw>
+        <mj-section padding="0">
+            <mj-column>
+                <mj-text
+                    color="#707070"
+                    font-family="Verdana"
+                    font-size="10px"
+                    line-height="21px"
+                    align="left"
+                    padding="20px 30px 0">
+                    See your Google Play 
+                        <a href="https://play.google.com/store/account/orderhistory"
+                            class="links-style">
+                            Order History.
+                        </a> 
+                </mj-text>
+                <mj-text
+                    color="#707070"
+                    font-family="Verdana"
+                    font-size="10px"
+                    line-height="10px"
+                    align="left"
+                    padding="0 30px">
+                    View the Google Play 
+                        <a href="https://support.google.com/googleplay/answer/2479637?hl=en&visit_id=638063093538339238-1319343749&p=play_refund&rd=1"
+                            class="links-style">
+                            Refund Policy
+                        </a> 
+                    and the 
+                        <a href="https://play.google.com/intl/en_us/about/play-terms/index.html"
+                            class="links-style">
+                            Terms of Service
+                        </a>.
+                </mj-text>
+                <mj-text
+                    color="#707070"
+                    font-family="Verdana"
+                    font-size="10px"
+                    line-height="21px"
+                    align="left"
+                    padding="60px 30px 0">
+                    Need help? Visit the 
+                        <a href="https://support.google.com/googleplay/?visit_id=638063093539284957-120336389&hl=en&rd=2#contact=1&topic=3364260"
+                            class="links-style">
+                            Google Play help center
+                        </a>.
+                </mj-text>
+                <mj-text
+                    color="#707070"
+                    font-family="Verdana"
+                    font-size="10px"
+                    line-height="10px"
+                    align="left"
+                    padding="0 30px">
+                    To learn more about Google Payments, visit the 
+                        <a href="hhttps://support.google.com/googlepay/?hl=en&visit_id=638063093539284957-120336389&rd=1#topic=11450859"
+                            class="links-style">
+                            Google Payments help center.
+                        </a>
+                </mj-text>
+                <mj-text
+                    color="#707070"
+                    font-family="Verdana"
+                    font-size="10px"
+                    line-height="22px"
+                    align="left"
+                    padding="0 30px">
+                    Please do not reply to this message. 
+                </mj-text>
+                <mj-text
+                    color="#707070"
+                    font-family="Verdana"
+                    font-size="10px"
+                    line-height="10px"
+                    align="left"
+                    padding="0 30px">
+                    &copy; 2022 Google | All Rights Reserved.
+                </mj-text>
+                <mj-text
+                    color="#707070"
+                    font-family="Verdana"
+                    font-size="10px"
+                    line-height="22px"
+                    align="left"
+                    padding="0 30px 10px">
+                    Google LLC, 1600 Amphitheatre Pkwy, Mountain View, CA, 94043, United States
+                </mj-text>
+            </mj-column>
+        </mj-wrapper>
+    </mj-body>
+</mjml>
