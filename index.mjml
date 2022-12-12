@@ -1,6 +1,13 @@
 <mjml>
     <mj-head>
         <mj-style>
+            @media screen and (max-device-width:480px) {
+                #body.play-icon { 
+                    color: #008080;  
+                }
+            }
+        </mj-style>
+        <mj-style>
             *{
                 box-sixing: border-box;
             }
@@ -8,6 +15,9 @@
                 color: #1565c0;
                 text-decoration: none;
             }
+        </mj-style>
+        <mj-style inline="inline">
+
         </mj-style>
     </mj-head>
     <mj-body>
@@ -82,30 +92,33 @@
             <!-- ITEM & PRICE TITLE TEXT -->
         </mj-raw>
         <mj-section padding="0">
-            <mj-column width="75%">
-                <mj-text
-                    color="#555555"
-                    font-family="Verdana"
-                    font-size="14px"
-                    font-weight="600"
-                    line-height="36px"
-                    align="left"
-                    padding="0 30px">
-                    Item
-                </mj-text>
-            </mj-column>
-            <mj-column width="25%">
-                <mj-text
-                    color="#555555"
-                    font-family="Verdana"
-                    font-size="14px"
-                    font-weight="600"
-                    line-height="36px"
-                    align="right"
-                    padding="0 30px">
-                    Price
-                </mj-text>
-            </mj-column>
+            <mj-group>
+                <mj-column>
+                    <mj-text
+                        color="#555555"
+                        font-family="Verdana"
+                        font-size="14px"
+                        font-weight="600"
+                        line-height="36px"
+                        align="left"
+                        padding="0 30px">
+                        Item
+                    </mj-text>
+                </mj-column>
+                <mj-column>
+                    <mj-text
+                        color="#555555"
+                        font-family="Verdana"
+                        font-size="14px"
+                        font-weight="600"
+                        line-height="36px"
+                        align="right"
+                        padding="0 30px">
+                        Price
+                    </mj-text>
+                </mj-column>
+            </mj-group>
+            
         </mj-section>
 
         <mj-raw>
@@ -117,28 +130,31 @@
             <!-- ITEM NAME & PRICE TEXT -->
         </mj-raw>
         <mj-section padding="0">
-            <mj-column width="75%">
-                <mj-text
-                    color="#555555"
-                    font-family="Verdana"
-                    font-size="14px"
-                    line-height="21px"
-                    align="left"
-                    padding="10px 30px">
-                    Magic Avatars Pack (Lensa: Avatar Maker, Editor)
-                </mj-text>
-            </mj-column>
-            <mj-column width="25%">
-                <mj-text
-                    color="#555555"
-                    font-family="Verdana"
-                    font-size="14px"
-                    line-height="21px"
-                    align="right"
-                    padding="10px 30px">
-                    $7.99
-                </mj-text>
-            </mj-column>
+            <mj-group>
+                <mj-column>
+                    <mj-text
+                        color="#555555"
+                        font-family="Verdana"
+                        font-size="14px"
+                        line-height="21px"
+                        align="left"
+                        padding="10px 0 10px 30px">
+                        Magic Avatars Pack (Lensa: Avatar Maker, Editor)
+                    </mj-text>
+                </mj-column>
+                <mj-column>
+                    <mj-text
+                        color="#555555"
+                        font-family="Verdana"
+                        font-size="14px"
+                        line-height="21px"
+                        align="right"
+                        padding="10px 30px">
+                        $7.99
+                    </mj-text>
+                </mj-column>
+            </mj-group>
+            
         </mj-section>
 
         <mj-raw>
@@ -150,36 +166,39 @@
             <!-- TAX & TOTAL TEXT -->
         </mj-raw>
         <mj-section padding="0">
-            <mj-column width="75%">
-                <mj-text
-                    color="#555555"
-                    font-family="Verdana"
-                    font-size="14px"
-                    line-height="21px"
-                    align="left"
-                    padding="10px 30px">
-                </mj-text>
-            </mj-column>
-            <mj-column width="25%">
-                <mj-text
-                    color="#555555"
-                    font-family="Verdana"
-                    font-size="14px"
-                    line-height="21px"
-                    align="right"
-                    padding="10px 30px 4px">
-                    Tax: $0.00
-                </mj-text>
-                <mj-text
-                    color="#555555"
-                    font-family="Verdana"
-                    font-size="14px"
-                    line-height="21px"
-                    align="right"
-                    padding="0 30px 10px">
-                    Total: $7.99
-                </mj-text>
-            </mj-column>
+            <mj-group>
+                <mj-column>
+                    <mj-text
+                        color="#555555"
+                        font-family="Verdana"
+                        font-size="14px"
+                        line-height="21px"
+                        align="left"
+                        padding="10px 30px">
+                    </mj-text>
+                </mj-column>
+                <mj-column>
+                    <mj-text
+                        color="#555555"
+                        font-family="Verdana"
+                        font-size="14px"
+                        line-height="21px"
+                        align="right"
+                        padding="10px 30px 4px">
+                        Tax: $0.00
+                    </mj-text>
+                    <mj-text
+                        color="#555555"
+                        font-family="Verdana"
+                        font-size="14px"
+                        line-height="21px"
+                        align="right"
+                        padding="0 30px 10px">
+                        Total: $7.99
+                    </mj-text>
+                </mj-column>
+            </mj-group>
+            
         </mj-section>
 
         <mj-raw>
@@ -191,76 +210,79 @@
             <!-- PAYMENT METHODS TEXT -->
         </mj-raw>
         <mj-section padding="0">
-            <mj-column width="50%">
-                <mj-text
-                    color="#555555"
-                    font-family="Verdana"
-                    font-size="14px"
-                    font-weight="600"
-                    line-height="21px"
-                    align="left"
-                    padding="10px 30px">
-                    Payment Methods:
-                </mj-text>
-            </mj-column>
-            <mj-column width="50%">
-                <mj-text
-                    color="#555555"
-                    font-family="Verdana"
-                    font-size="14px"
-                    line-height="21px"
-                    align="right"
-                    padding="10px 30px 4px">
-                    Google Play balance: $5.00
-                </mj-text>
-                <mj-text
-                    color="#555555"
-                    font-family="Verdana"
-                    font-size="14px"
-                    line-height="21px"
-                    align="right"
-                    padding="0 30px 10px">
-                    Visa-9900 : $2.99
-                </mj-text>
-            </mj-column>
+            <mj-group>
+                <mj-column>
+                    <mj-text
+                        color="#555555"
+                        font-family="Verdana"
+                        font-size="14px"
+                        font-weight="600"
+                        line-height="21px"
+                        align="left"
+                        padding="10px 30px">
+                        Payment Methods:
+                    </mj-text>
+                </mj-column>
+                <mj-column>
+                    <mj-text
+                        color="#555555"
+                        font-family="Verdana"
+                        font-size="14px"
+                        line-height="21px"
+                        align="right"
+                        padding="10px 30px 4px">
+                        Google Play balance: $5.00
+                    </mj-text>
+                    <mj-text
+                        color="#555555"
+                        font-family="Verdana"
+                        font-size="14px"
+                        line-height="21px"
+                        align="right"
+                        padding="0 30px 10px">
+                        Visa-9900 : $2.99
+                    </mj-text>
+                </mj-column>
+            </mj-group>
+            
         </mj-section>
         <mj-raw>
             <!-- PLAY POINTS TEXT -->
         </mj-raw>
         <mj-section padding="0">
-            <mj-column width="300px">
-                <mj-text
-                    color="#555555"
-                    font-family="Verdana"
-                    font-size="14px"
-                    font-weight="600"
-                    line-height="21px"
-                    align="left"
-                    padding="15px 30px">
-                    Play Points earned
-                </mj-text>
-            </mj-column>
-            <mj-column width="235px">
-                <mj-image 
-                    src="https://i.ibb.co/CtV3XgZ/google-rewards-icon.png" 
-                    alt="Google Play Points Logo" 
-                    width="25px"
-                    align="right"
-                    padding="10px 0"
-                />
-            </mj-column>
-            <mj-column width="65px">
-                <mj-text
-                    color="#555555"
-                    font-family="Verdana"
-                    font-size="14px"
-                    align="right"
-                    padding="15px 30px 5px 0">
-                    +10
-                </mj-text>
-            </mj-column>
-                
-            </mj-column>
+            <mj-group>
+                <mj-column width="50%">
+                    <mj-text
+                        color="#555555"
+                        font-family="Verdana"
+                        font-size="14px"
+                        font-weight="600"
+                        line-height="21px"
+                        align="left"
+                        padding="15px 0 15px 30px">
+                        Play Points earned
+                    </mj-text>
+                </mj-column>
+                <mj-column width="31%">
+                    <mj-image 
+                        src="https://i.ibb.co/CtV3XgZ/google-rewards-icon.png" 
+                        alt="Google Play Points Logo" 
+                        width="25px"
+                        align="right"
+                        padding="10px 0"
+                    />
+                </mj-column>
+                <mj-column width="19%">
+                    <mj-text
+                        color="#555555"
+                        font-family="Verdana"
+                        font-size="14px"
+                        align="right"
+                        padding="15px 30px 5px 0">
+                        +10
+                    </mj-text>
+                </mj-column>
+            </mj-group>
         </mj-section>
 
         <mj-raw>
@@ -293,6 +315,7 @@
             <!-- GOOGLE PLAY INFO -->
         </mj-raw>
         <mj-section padding="0">
+        <mj-group css-class="play-icon">
             <mj-column width="20%">
                 <mj-image
                     src="https://i.ibb.co/QdvFMYS/google-play-icon.png"
@@ -302,7 +325,7 @@
                     padding="16px 0 0 50px"
                 />
             </mj-column>
-            <mj-column css-class="play-info-mobile" width="80%">
+            <mj-column width="70%" padding="0">
                 <mj-text
                     color="#555555"
                     font-family="Verdana"
@@ -327,6 +350,8 @@
                         </a> 
                 </mj-text>
             </mj-column>
+        </mj-group>
+            
         </mj-section>
 
         <mj-raw>
